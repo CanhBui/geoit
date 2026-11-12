@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "title": "Phân tích NCTT lĩnh vực Đất đai và Tài nguyên môi trường",
+    "period": "Tháng 11/2026",
+    "complete": "04/11/2026",
+    "scope": "Đất đai · Tài nguyên môi trường · Viễn thám & GeoAI · GeoAIoT",
+    "source": "Phu_luc_NCTT_202611_GEO IT.docx",
+    "officialNumber": "95/GEO IT",
+    "documentDate": "04/11/2026",
+    "audience": "Công khai trên GitHub Pages",
+    "internalProductData": "Đến tháng 09/2026",
+    "internalOpportunityData": "Đến tháng 10/2026"
+  },
+  "market": [
+    {
+      "name": "Dịch vụ viễn thám",
+      "region": "Toàn cầu",
+      "base": 17.13,
+      "forecast": 37.82,
+      "unit": "tỷ USD",
+      "baseYear": "2023",
+      "forecastYear": "2030",
+      "cagr": 11.98,
+      "source": "Statista Market Insights, 28/05/2024"
+    },
+    {
+      "name": "Phân tích ảnh địa không gian",
+      "region": "Toàn cầu",
+      "base": 14.6,
+      "forecast": 28.7,
+      "unit": "tỷ USD",
+      "baseYear": "2026",
+      "forecastYear": "2033",
+      "cagr": 10.1,
+      "source": "Statista Market Insights, 28/05/2024"
+    },
+    {
+      "name": "Phân tích địa không gian",
+      "region": "Toàn cầu",
+      "base": 117.2,
+      "forecast": 234,
+      "unit": "tỷ USD",
+      "baseYear": "2026",
+      "forecastYear": "2033",
+      "cagr": 10.4,
+      "source": "Statista Market Insights, 28/05/2024"
+    },
+    {
+      "name": "Smart Cities IoT",
+      "region": "Toàn cầu",
+      "base": 88.11,
+      "forecast": 132.71,
+      "unit": "tỷ USD",
+      "baseYear": "2026",
+      "forecastYear": "2031",
+      "cagr": 8.54,
+      "source": "Statista Market Insights, 02/2026"
+    },
+    {
+      "name": "Smart Cities IoT",
+      "region": "Việt Nam",
+      "base": 262.65,
+      "forecast": 461.97,
+      "unit": "triệu USD",
+      "baseYear": "2026",
+      "forecastYear": "2031",
+      "cagr": 11.96,
+      "source": "Statista Market Insights, 02/2026"
+    }
+  ],
+  "opps": [
+    {
+      "id": "land",
+      "line": "Đất đai",
+      "short": "Đất đai",
+      "count": 25,
+      "value": 272.34,
+      "places": [
+        "Gia Lai",
+        "Ninh Bình",
+        "Thanh Hóa",
+        "Cà Mau",
+        "Lâm Đồng",
+        "Lai Châu"
+      ],
+      "sector": "CSDL đất đai; hệ thống thông tin đất đai; quản lý, khai thác dữ liệu đất đai",
+      "stage": "Tiếp cận; phê duyệt chủ trương đầu tư; lập dự toán",
+      "accent": "#1c83f5"
+    },
+    {
+      "id": "env",
+      "line": "Tài nguyên môi trường",
+      "short": "TNMT",
+      "count": 9,
+      "value": 215.7,
+      "places": [
+        "Trung ương",
+        "Thái Nguyên",
+        "Điện Biên",
+        "Sơn La",
+        "Thanh Hóa"
+      ],
+      "sector": "CSDL môi trường; quản lý tài nguyên, khoáng sản; hệ thống thông tin chuyên ngành",
+      "stage": "Lập nhiệm vụ, đề xuất chủ trương đầu tư",
+      "accent": "#12a88f"
+    },
+    {
+      "id": "geoai",
+      "line": "Viễn thám và GeoAI",
+      "short": "GeoAI",
+      "count": 15,
+      "value": 42.29,
+      "places": [
+        "Đắk Lắk",
+        "Thái Nguyên",
+        "Khánh Hòa",
+        "Quảng Trị",
+        "Trung ương"
+      ],
+      "sector": "Dữ liệu địa không gian; giám sát tài nguyên, biến động đất đai; ứng dụng viễn thám và GeoAI",
+      "stage": "Tiếp cận; lập nhiệm vụ; lập dự toán",
+      "accent": "#8e64d7"
+    },
+    {
+      "id": "geoiot",
+      "line": "GeoAIoT",
+      "short": "GeoAIoT",
+      "count": 8,
+      "value": 71.63,
+      "places": [
+        "Đồng Tháp",
+        "An Giang",
+        "Gia Lai",
+        "Vĩnh Long",
+        "Trung ương"
+      ],
+      "sector": "Quan trắc, giám sát môi trường; tích hợp dữ liệu cảm biến và nền tảng quản lý",
+      "stage": "Tiếp cận; lập nhiệm vụ; lựa chọn nhà thầu",
+      "accent": "#e1a030"
+    },
+    {
+      "id": "integrated",
+      "line": "Giải pháp tích hợp, đa lĩnh vực",
+      "short": "Tích hợp",
+      "count": 2,
+      "value": 347,
+      "places": [
+        "Trung ương",
+        "Lâm Đồng"
+      ],
+      "sector": "Hệ thống tích hợp dữ liệu và giải pháp quản lý, giám sát tài nguyên môi trường",
+      "stage": "Lập nhiệm vụ; lập dự toán",
+      "accent": "#e27d75"
+    }
+  ],
+  "policies": [
+    {
+      "date": "31/12/2026",
+      "title": "Chuẩn hóa và kết nối dữ liệu",
+      "body": "NĐ 278/2025/NĐ-CP; QĐ 2439/QĐ-TTg. Tác động tới iLIS, iNRES, GeoPortal và các nền tảng chia sẻ dữ liệu.",
+      "label": "Mốc chuẩn hóa",
+      "type": "deadline"
+    },
+    {
+      "date": "Trong năm 2027",
+      "title": "Hoàn thiện CSDL quốc gia về đất đai",
+      "body": "NQ 229/NQ-CP; KH 2959/KH-BNNMT-BCA. Tạo nhu cầu về dữ liệu, quản lý nghiệp vụ và khả năng liên thông của iLIS.",
+      "label": "Động lực thị trường",
+      "type": "strategic"
+    },
+    {
+      "date": "Từ 15/09/2026",
+      "title": "Chuyển quản lý địa chất, khoáng sản",
+      "body": "NQ 66.25/2026/NQ-CP; NĐ 351/2026/NĐ-CP. Yêu cầu rà soát khách hàng, cơ quan quản lý và cơ hội iNRES.",
+      "label": "Thay đổi đầu mối",
+      "type": "monitor"
+    },
+    {
+      "date": "Từ 15/09/2026",
+      "title": "Quy định dữ liệu địa chất, khoáng sản",
+      "body": "TT 60/2026/TT-BCT. Tác động tới việc quản lý, chuẩn hóa, khai thác và cung cấp dữ liệu chuyên ngành.",
+      "label": "Tuân thủ dữ liệu",
+      "type": "monitor"
+    },
+    {
+      "date": "2025–2026",
+      "title": "Mô hình chính quyền địa phương hai cấp",
+      "body": "NĐ 151/2025/NĐ-CP; NQ 254/2025/QH15; NĐ 49/2026/NĐ-CP. Cần đối chiếu nghiệp vụ iLIS và iLIS Ward.",
+      "label": "Thích ứng nghiệp vụ",
+      "type": "monitor"
+    },
+    {
+      "date": "Từ 14/10/2025",
+      "title": "Đô thị thông minh & IoT",
+      "body": "NĐ 269/2025/NĐ-CP. Mở ra nhu cầu tích hợp dữ liệu GIS, IoT và AI phục vụ giám sát, điều hành.",
+      "label": "Cơ hội phát triển",
+      "type": "strategic"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "VBDLIS",
+      "line": "Đất đai",
+      "role": "Đối thủ trực tiếp",
+      "risk": "Cao",
+      "desc": "Hiện diện tại 22/34 tỉnh; cạnh tranh trực tiếp với iLIS về nền tảng và dịch vụ vận hành."
+    },
+    {
+      "name": "Esri Việt Nam",
+      "line": "TNMT · GeoAI · GeoAIoT",
+      "role": "Đối thủ nền tảng / đối tác tiềm năng",
+      "risk": "Cao ở GIS",
+      "desc": "Hệ sinh thái ArcGIS, viễn thám, dữ liệu không gian, tích hợp IoT và AI."
+    },
+    {
+      "name": "eKMap",
+      "line": "TNMT · GeoAI",
+      "role": "Đối thủ trực tiếp",
+      "risk": "Cao ở GeoAI",
+      "desc": "Bản đồ số, dữ liệu địa lý, giám sát biến động bằng viễn thám và AI."
+    },
+    {
+      "name": "EnviSoft 3.0",
+      "line": "Quan trắc môi trường",
+      "role": "Nền tảng cần tích hợp",
+      "risk": "Trung bình",
+      "desc": "Nền tảng chuyên ngành quan trắc nhà nước; rủi ro trùng lặp chức năng hoặc tích hợp."
+    },
+    {
+      "name": "FPT IS – GeoBase",
+      "line": "GIS · GeoAI",
+      "role": "Đối thủ GIS, tiềm năng GeoAI",
+      "risk": "Trung bình–cao",
+      "desc": "Nền tảng GIS, phân tích không gian; chưa đủ bằng chứng dịch vụ giám sát định kỳ trực tiếp tương đương iSAT."
+    },
+    {
+      "name": "Airbus · Planet",
+      "line": "Dữ liệu vệ tinh · GeoAI",
+      "role": "Nhà cung cấp / đối tác / đối thủ tiềm năng",
+      "risk": "Trung bình–cao",
+      "desc": "Dữ liệu ảnh vệ tinh và dịch vụ phân tích; cần kiểm soát chi phí và quyền sử dụng dữ liệu."
+    },
+    {
+      "name": "Viettel Solutions",
+      "line": "GeoAIoT",
+      "role": "Đối thủ trực tiếp",
+      "risk": "Cao",
+      "desc": "Giải pháp tích hợp GIS, IoT, AI và nền tảng điều hành."
+    },
+    {
+      "name": "MobiFone",
+      "line": "GeoAIoT",
+      "role": "Đối thủ gián tiếp",
+      "risk": "Trung bình",
+      "desc": "Nền tảng IOC và tích hợp dữ liệu; có khả năng mở rộng sang giám sát chuyên ngành."
+    }
+  ],
+  "directions": [
+    {
+      "id": "DH1",
+      "name": "Nền tảng quản trị dữ liệu đất đai thông minh",
+      "text": "Bảo vệ thị trường iLIS; mở rộng dịch vụ CSDL đất đai; nâng cao thương hiệu, trải nghiệm người dùng và nghiên cứu AI/SLM chuyên ngành.",
+      "line": "Đất đai",
+      "icon": "▦"
+    },
+    {
+      "id": "DH2",
+      "name": "Dữ liệu chuyên ngành tài nguyên môi trường",
+      "text": "Phát triển hệ sinh thái iNRES, chuẩn hóa kiến trúc GIS và cập nhật tiếp cận thị trường địa chất, khoáng sản.",
+      "line": "Tài nguyên môi trường",
+      "icon": "◈"
+    },
+    {
+      "id": "DH3",
+      "name": "Dịch vụ giám sát định kỳ viễn thám & GeoAI",
+      "text": "Đóng gói iSAT Land, iSAT Forest và các dịch vụ giám sát với phạm vi, tần suất, độ chính xác, giá và nghiệm thu rõ ràng.",
+      "line": "Viễn thám & GeoAI",
+      "icon": "◎"
+    },
+    {
+      "id": "DH4",
+      "name": "Giám sát thông minh GeoAIoT",
+      "text": "Làm chủ nền tảng GIS + IoT + AI; hợp tác thiết bị và hạ tầng; phát triển giải pháp theo bài toán có khách hàng và nguồn vốn.",
+      "line": "GeoAIoT",
+      "icon": "⌘"
+    }
+  ],
+  "issues": [
+    {
+      "id": 1,
+      "title": "Bảo vệ và phát triển thị trường iLIS, dịch vụ CSDL đất đai",
+      "level": "Quan trọng",
+      "direction": "ĐH1",
+      "metric": "Số tỉnh duy trì triển khai iLIS",
+      "current": "13 tỉnh",
+      "trigger": "Giảm dưới 13 tỉnh hoặc có xác nhận chính thức về việc thay thế tại địa bàn trọng điểm.",
+      "option": "Cạnh tranh giữ thị trường"
+    },
+    {
+      "id": 2,
+      "title": "Thay đổi cơ quan quản lý địa chất, khoáng sản tác động iNRES",
+      "level": "Quan trọng",
+      "direction": "ĐH2",
+      "metric": "Tỷ lệ cơ hội đã xác minh lại cơ quan chủ quản và đầu mối mua sắm",
+      "current": "Chưa có số liệu tổng hợp",
+      "trigger": "Chưa có ngưỡng số cụ thể trong báo cáo.",
+      "option": "Tự phát triển"
+    },
+    {
+      "id": 3,
+      "title": "Thương mại hóa dịch vụ viễn thám, GeoAI",
+      "level": "Quan trọng",
+      "direction": "ĐH3",
+      "metric": "Số gói giám sát định kỳ iSAT được chuẩn hóa",
+      "current": "Chưa có số liệu đầy đủ",
+      "trigger": "Chưa có ngưỡng số cụ thể trong bảng vấn đề.",
+      "option": "Tự phát triển"
+    },
+    {
+      "id": 4,
+      "title": "Thiếu mô hình giải pháp và phương án thương mại GeoAIoT",
+      "level": "Quan trọng",
+      "direction": "ĐH4",
+      "metric": "Số cơ hội có nhu cầu, phạm vi và nguồn vốn được xác minh",
+      "current": "08 cơ hội; chưa xác định số đủ điều kiện",
+      "trigger": "Dưới 02 cơ hội đủ điều kiện trong quý I/2027.",
+      "option": "Hợp tác"
+    },
+    {
+      "id": 5,
+      "title": "Hiệu quả, lộ trình ứng dụng AI/SLM trong iLIS",
+      "level": "Thông thường",
+      "direction": "ĐH1",
+      "metric": "Số địa phương thử nghiệm AI/SLM đạt tiêu chí đánh giá",
+      "current": "Chưa có kết quả được xác nhận",
+      "trigger": "Không có ngưỡng chuyển mức cụ thể trong bảng vấn đề.",
+      "option": "Tự phát triển / Hợp tác"
+    }
+  ],
+  "actions": [
+    {
+      "id": "A1",
+      "issueRaw": "VĐ1",
+      "issueActual": "VĐ1",
+      "dir": "ĐH1",
+      "name": "Bảo vệ thị trường và nâng cao năng lực cạnh tranh của iLIS",
+      "time": "Q1/2027",
+      "owner": "PdM Line Đất đai",
+      "output": "Phương án bảo vệ thị trường iLIS theo địa bàn; bộ tài liệu và công cụ hỗ trợ kinh doanh, cạnh tranh với VBDLIS",
+      "target": "Rà soát 13/13 địa bàn triển khai iLIS; có phương án bảo vệ 100% địa bàn phát hiện nguy cơ",
+      "group": "land"
+    },
+    {
+      "id": "A2",
+      "issueRaw": "VĐ1",
+      "issueActual": "VĐ1",
+      "dir": "ĐH1",
+      "name": "Thúc đẩy phát triển thị trường đất đai",
+      "time": "Q1/2027",
+      "owner": "PdM Line Đất đai",
+      "output": "Danh mục cơ hội kinh doanh được xác minh, phân loại ưu tiên; kế hoạch tiếp cận và hỗ trợ kinh doanh theo địa bàn",
+      "target": "Rà soát 25/25 cơ hội hiện có; lựa chọn tối thiểu 05 cơ hội ưu tiên có thông tin nguồn vốn, tiến độ đầu tư, đầu mối phụ trách và phương án tiếp cận cụ thể",
+      "group": "land"
+    },
+    {
+      "id": "A3",
+      "issueRaw": "VĐ2",
+      "issueActual": "VĐ2",
+      "dir": "ĐH2",
+      "name": "Phát triển thị trường và giải pháp chuyên ngành TNMT",
+      "time": "Q1/2027",
+      "owner": "PdM Line Tài nguyên môi trường",
+      "output": "Báo cáo đánh giá tác động chính sách; danh mục khách hàng, cơ hội ưu tiên; phương án phát triển thị trường và giải pháp chuyên ngành",
+      "target": "Rà soát 09/09 cơ hội Line TNMT, xác định đầy đủ các cơ hội liên quan đến địa chất, khoáng sản và đầu mối quản lý mới",
+      "group": "env"
+    },
+    {
+      "id": "A4",
+      "issueRaw": "VĐ4",
+      "issueActual": "VĐ3",
+      "dir": "ĐH3",
+      "name": "Thương mại hóa dịch vụ viễn thám và GeoAI",
+      "time": "Q2/2027",
+      "owner": "PdM Line GeoAI",
+      "output": "Bộ gói dịch vụ iSAT; hồ sơ thương mại, phương án giá, tiêu chí nghiệm thu; kết quả trình diễn, thử nghiệm và đề xuất cung cấp dịch vụ",
+      "target": "Hoàn thành tối thiểu 05 gói dịch vụ có phương án thương mại",
+      "group": "geoai"
+    },
+    {
+      "id": "A5",
+      "issueRaw": "VĐ5",
+      "issueActual": "VĐ4",
+      "dir": "ĐH4",
+      "name": "Phát triển thị trường và thương mại hóa GeoAIoT",
+      "time": "Q2/2027",
+      "owner": "PdM Line GeoAIoT",
+      "output": "Danh mục cơ hội ưu tiên; bộ giải pháp GeoAIoT mẫu; phương án hợp tác công nghệ và thương mại; hồ sơ đề xuất triển khai",
+      "target": "Rà soát 08/08 cơ hội; xác định tối thiểu 02 cơ hội ưu tiên đủ điều kiện tiếp cận; hoàn thành 01 bộ giải pháp mẫu và ít nhất 01 đề xuất triển khai có đối tác phối hợp",
+      "group": "geoiot"
+    },
+    {
+      "id": "A6",
+      "issueRaw": "VĐ8",
+      "issueActual": "VĐ5",
+      "dir": "ĐH1",
+      "name": "Nghiên cứu, thử nghiệm AI chuyên ngành trong iLIS",
+      "time": "Q4/2027",
+      "owner": "PdM Line Đất đai",
+      "output": "Báo cáo đánh giá khả thi; kết quả thử nghiệm AI/SLM tại địa phương; phương án hợp tác và lộ trình ứng dụng, thương mại hóa",
+      "target": "Thực hiện 01 thử nghiệm tại địa phương; đánh giá tối thiểu 02 bài toán AI trên dữ liệu thực tế; hoàn thành báo cáo hiệu quả và phương án triển khai giai đoạn tiếp theo",
+      "group": "land"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Phát triển thị trường",
+      "text": "Tăng cường phối hợp GeoIT, Ban Kinh doanh Giải pháp và VNPT tỉnh/thành phố; bảo vệ khách hàng iLIS và thúc đẩy cơ hội CSDL đất đai."
+    },
+    {
+      "title": "Năng lực cạnh tranh",
+      "text": "Hỗ trợ định vị, truyền thông, thương hiệu, chính sách thương mại; ưu tiên iLIS, GeoAI và GeoAIoT."
+    },
+    {
+      "title": "Nguồn lực & kinh phí",
+      "text": "Bố trí chuyên gia và kinh phí cho khảo sát, tư vấn, thử nghiệm, trình diễn và thương mại hóa."
+    },
+    {
+      "title": "Hợp tác công nghệ",
+      "text": "Đề xuất hợp tác đối tác dữ liệu vệ tinh, cảm biến IoT, UAV, AI theo từng bài toán; GeoIT giữ vai trò chủ trì chuyên ngành."
+    }
+  ],
+  "limitations": [
+    "Các quy mô thị trường quốc tế có phân khúc chồng lấn, không cộng gộp để tính thị trường khả dụng hoặc doanh thu GeoIT.",
+    "Số liệu triển khai sản phẩm nội bộ cập nhật đến tháng 09/2026; danh mục cơ hội kinh doanh đến tháng 10/2026.",
+    "Cơ hội kinh doanh 59 / giá trị 948,96 tỷ đồng chưa điều chỉnh xác suất thành công và chưa được xác nhận đầy đủ về nguồn vốn, tiến độ, không phải doanh thu dự báo.",
+    "Bảng II.6 của Phụ lục chính thức có dòng Đất đai lặp lại; dashboard đã tính 05 nhóm duy nhất để tránh cộng trùng.",
+    "Độ phủ địa bàn VNPT iLIS 13/34 và VBDLIS 22/34 không phải thị phần khách hàng trả phí.",
+    "Chưa đủ dữ liệu định lượng cho doanh thu, khách hàng trả phí, thị phần từng SPDV và hiệu quả thương mại hóa các giải pháp mới.",
+    "Mã tham chiếu trong bảng hành động A4→VĐ4, A5→VĐ5, A6→VĐ8 chưa đồng bộ với danh mục vấn đề 1–5; dashboard nêu mã gốc và ghi chú đối chiếu.",
+    "Kết quả dự kiến trong A1–A6 là mục tiêu kế hoạch, không phải tiến độ hoặc thành quả đã thực hiện.",
+    "Trang được biên tập từ Công văn 95/GEO IT và Phụ lục ngày 04/11/2026; không tự động kết nối hay cập nhật số liệu."
+  ]
+}
