@@ -1,9 +1,7 @@
-# GEO IT · Dashboard Nghiên cứu thị trường
+# GeoIT - Dashboard NCTT được mã hóa
 
-Dashboard NCTT Đất đai và Tài nguyên môi trường, kỳ **11/2026**. Nguồn: **Công văn 95/GEO IT ngày 04/11/2026** và Phụ lục NCTT 2026–2030.
+Trang tĩnh GitHub Pages tại https://canhbui.github.io/geoit/. `index.html` chỉ là giao diện nhập mật khẩu; `payload.json` lưu bản báo cáo mã hóa AES-256-GCM bằng khóa dẫn xuất PBKDF2-SHA-256 (600.000 vòng). Mật khẩu **không nằm trong repository** và không được gửi về máy chủ.
 
-Trang dự kiến: https://canhbui.github.io/geoit/ — chỉ hoạt động sau khi GitHub Pages được bật trong **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root)**.
+**Cảnh báo:** GitHub Pages không có xác thực người dùng ở phía máy chủ. Dữ liệu ciphertext vẫn công khai và có thể bị thử mật khẩu ngoại tuyến; nên dùng mật khẩu mạnh dài. Người biết mật khẩu có thể lưu nội dung giải mã. Lịch sử commit cũ của repository vẫn có thể chứa bản HTML và JSON chưa mã hóa. Muốn loại bỏ lịch sử này cần quy trình làm sạch lịch sử riêng và vẫn không thể thu hồi các bản đã bị tải trước đó.
 
-Tài liệu nguồn không được đưa lên repo. `index.html` là dashboard độc lập có CSS/JS/dữ liệu nhúng; `data.json` phục vụ kiểm toán dữ liệu và bảo trì (chỉnh JSON không tự cập nhật giao diện).
-
-**Lưu ý:** Trang thuộc repository công khai. Số liệu cơ hội là ước tính chưa quy đổi theo xác suất thành công, không phải doanh thu. Độ phủ iLIS là hiện diện địa bàn, không phải thị phần. Các nhận định cạnh tranh và chỉ tiêu kinh doanh theo hồ sơ đơn vị.
+Chỉ sửa mã nguồn dashboard trong bản mã hóa bằng cách giải mã nguồn một cách an toàn ở máy tính có kiểm soát, thay đổi, mã hóa lại với muối/IV mới, rồi cập nhật `payload.json`.
